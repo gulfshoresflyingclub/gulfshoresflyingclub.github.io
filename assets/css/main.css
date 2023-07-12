@@ -4399,6 +4399,12 @@ input, select, textarea {
 
 		#banner {
 			height: 50em;
+			background-attachment: scroll;
+			background-image: url(images/overlay.png), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(115, 194, 250, 0.65)), url(../../images/test.jpg);
+			background-position: center;
+			background-size: auto;
+			background-repeat: repeat, no-repeat, no-repeat;
+			position: relative;
 		}
 
 	}
@@ -4436,6 +4442,12 @@ input, select, textarea {
 
 		#banner {
 			height: 30em;
+			background-attachment: scroll;
+			background-image: url(images/overlay.png), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(115, 194, 250, 0.65)), url(../../images/test.jpg);
+			background-position: center;
+			background-size: auto;
+			background-repeat: repeat, no-repeat, no-repeat;
+			position: relative;
 		}
 
 	}
@@ -4611,6 +4623,15 @@ input, select, textarea {
 
 			@media screen and (max-width: 980px) {
 
+				#footer {
+					background-attachment: scroll;
+					background-image: url(images/overlay.png), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(115, 194, 250, 0.65)), url(../../images/test.jpg);
+					background-position: center;
+					background-size: auto;
+					background-repeat: repeat, no-repeat, no-repeat;
+					position: relative;
+				}
+
 				#footer .content > .inner {
 					-moz-flex-wrap: wrap;
 					-webkit-flex-wrap: wrap;
@@ -4620,7 +4641,7 @@ input, select, textarea {
 
 					#footer .content > .inner > * {
 						width: 50%;
-						padding-left: 0;
+						padding-left: 5em;
 					}
 
 					#footer .content > .inner .about {
@@ -4631,6 +4652,15 @@ input, select, textarea {
 			}
 
 			@media screen and (max-width: 736px) {
+
+				#footer {
+					background-attachment: scroll;
+					/* background-image: url(images/overlay.png), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(115, 194, 250, 0.65)), url(../../images/test.jpg);
+					background-position: center;
+					background-size: auto;
+					background-repeat: repeat, no-repeat, no-repeat;
+					position: relative; */
+				}
 
 				#footer .content {
 					padding: 3em 0 0em 0 ;
@@ -4690,7 +4720,7 @@ input, select, textarea {
 			}
 
 		body.is-mobile #footer {
-			background-attachment: scroll;
+			background-attachment: fixed;
 		}
 
 /* Nav Panel */
