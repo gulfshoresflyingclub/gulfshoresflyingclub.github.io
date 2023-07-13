@@ -161,7 +161,7 @@ body {
 	 @media screen and (max-width: 736px) {
 
 		h2 {
-			font-size: 1.25em;
+			font-size: 1.5em;
 		}
 
 	}
@@ -373,7 +373,7 @@ body {
 			}
 
 				.wrapper > .inner > * {
-					padding-left: 0 !important;
+					/* padding-left: 0 !important; */
 					width: 100%;
 				}
 
@@ -542,26 +542,39 @@ body {
 		}
 
 		#header {
-			height: 3em;
-			line-height: 2.95em;
+			height: 4em !important;
+			line-height: 4.1em !important;
 		}
 
 			#header h1:before {
-				font-size: 0.8em;
+				font-size: 1.2em;
 			}
 
+			#header h1 a {
+				display: inline-block;
+				font-size: 1.2em;
+				height: inherit;
+				line-height: inherit;
+			}
 		.dropotron {
 			min-width: 11em;
 			padding: 0.5em;
 		}
+		#header .navPanelToggle:before {
+			font-size: 1.2em;
+		}
+
 
 	}
 
-	@media screen and (max-width: 736px) {
+
+ @media screen and (max-width: 736px) {
 
 		#header {
-			height: 3em !important;
-			line-height: 2.95em !important;
+			/* height: 3em !important;
+			line-height: 2.95em !important;  */
+			height: 4em !important;
+			line-height: 4.1em !important;
 		}
 
 			#header h1 {
@@ -576,7 +589,7 @@ body {
 				display: block;
 			}
 
-	}
+	} 
 
 /* Banner */
 
