@@ -822,11 +822,11 @@ body {
 
 				#footer {
 					background-attachment: scroll;
-					background-image: url(images/overlay.png), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(115, 194, 250, 0.65)), url(../../images/test.jpg);
+					/* background-image: url(images/overlay.png), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(115, 194, 250, 0.65)), url(../../images/test.jpg);
 					background-position: center;
 					background-size: auto;
 					background-repeat: repeat, no-repeat, no-repeat;
-					position: relative;
+					position: relative; */
 				}
 
 				#footer .content > .inner {
@@ -852,6 +852,11 @@ body {
 
 				#footer {
 					background-attachment: scroll;
+					background-image: url(images/overlay.png), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(115, 194, 250, 0.65)), url(../../images/test.jpg);
+					background-position: center;
+					background-size: auto;
+					background-repeat: repeat, no-repeat, no-repeat;
+					position: relative;
 				}
 
 				#footer .content {
